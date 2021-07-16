@@ -1,0 +1,47 @@
+body{
+    background-image: url(blob.jpg);
+    background-repeat: no-repeat;
+    background-position: 500px 0px;
+    background-color: #E2E7ED;
+}
+.webdes {
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    color: #6852F2;
+    top:100px;
+}
+
+.iam{
+    color: #6852F2;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    bottom:170px;
+    right:240px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+li{
+    float:right;
+}
+li a{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    padding: 16px 25px;
+}
+li a:hover:not(.active){
+    color:#A0F2EA ;
+}
+.active{
+    color:#0c0058;
+}
